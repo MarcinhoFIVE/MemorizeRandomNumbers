@@ -104,7 +104,7 @@ void gerarNumero() {
 }
 
 void Ganhar(){
-  if(acertos == 1) { // 7 rodadas (1+2+3+4+5+6+7) -> 28
+  if(acertos == 28) { // 7 rodadas (1+2+3+4+5+6+7) -> 28
       Espaco();
       jogar = -1;
       tone(buzer,600, 50);
